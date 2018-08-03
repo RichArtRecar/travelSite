@@ -468,9 +468,16 @@ img {
 .large-hero__title {
     font-weight: 300;
     color:  #2f5572;
-    font-size: 4.8rem;
+    font-size: 1.1rem;
     margin: 0;
 }
+
+@media (min-width:530px){
+
+.large-hero__title {
+        font-size: 4.8rem
+}
+    }
 
 .large-hero__text-content {
     position: absolute;
@@ -505,9 +512,17 @@ img {
     text-decoration: none;
     padding: .75rem 1.2rem;
     display: inline-block;
+ 
+
 }
 
 .btn--orange {
         background-color: #d59541;
 
+    }
+
+.btn--orange--large {
+            background-color: #d59541;
+            font-size: 1.25rem;
+            padding: 1.1rem 1.9rem;
     }
